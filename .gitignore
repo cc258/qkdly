@@ -1,0 +1,12 @@
+.settings/
+Thumbs.db
+logs/
+lib/
+target/
+database/
+eclipse/
+dist/
+tmp/
+node_modules
+coverage
+package-lock.json
