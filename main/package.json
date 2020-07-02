@@ -1,0 +1,23 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --port 9001",
+    "start:multiple": "parcel multiple.html --port 9002",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "qiankun": "^2.0.15",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "vue": "^2.6.11",
+    "zone.js": "^0.10.2"
+  }
+}
