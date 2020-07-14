@@ -1,0 +1,31 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.mainapp {
+	height: 100%;
+	header {
+		padding: 1px 16px;
+		color: #fff;
+		background: #0c0c0c;
+	}
+	.mainapp-main {
+		display: flex;
+		height: calc(100% - 89px);
+		background: #ebebeb;
+		.mainapp-sidemenu {
+			width: 240px;
+		}
+		#subapp-container {
+			flex: 1;
+			position: relative;
+			.subapp-loading {
+				position: absolute;
+				left: 40%;
+				top: 40%;
+			}
+		}
+	}
+}
