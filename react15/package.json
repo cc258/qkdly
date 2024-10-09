@@ -27,6 +27,7 @@
 		"webpackbar": "^4.0.0"
 	},
 	"dependencies": {
+		"@grafana/faro-react": "^1.10.2",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-router-dom": "^5.2.0"

@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { FaroRoute } from '@grafana/faro-react'
 
 import Home from './pages/home/home'
 import About from './pages/about/about'
@@ -22,11 +23,17 @@ class Routers extends React.Component {
 						</li>
 					</ul>
 				</nav>
-				<Switch>
+				<FaroRoute>
+					{/* <FaroRoute path="/"><Home/></FaroRoute>
+					<FaroRoute path="/about"><About/></FaroRoute>
+					<FaroRoute path="/hooks"><Hooks/></FaroRoute> */}
+
+
 					<Route exact path="/" component={Home} />
 					<Route exact path="/about" component={About} />
 					<Route exact path="/hooks" component={Hooks} />
-				</Switch>
+
+				</FaroRoute>
 			</Router>
 		)
 	}
